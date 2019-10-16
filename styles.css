@@ -1,0 +1,11 @@
+div.example > p {
+    font-color: #FF0000;
+}
+
+<div class="example">
+    <p> This text will be red. </p>
+    <div class="inner">
+        <p> This text will not be red.</p>
+    </div>
+    <p> This text will also be red. </p>
+</div>
